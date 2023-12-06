@@ -6,30 +6,20 @@ description: "Just the Docs is a responsive Jekyll theme with built-in search th
 permalink: /
 ---
 
-# Today Mina Learned <img src="./assets/images/profile-image.png" width="100" height="100">
+# Today Mina Learned <img src="./assets/images/profile-image.png" alt="profile Image" aria-label="profile Image" width="100" height="100">
 
-{: .fs-9 }
+{: .fs-6 }
+개발 공부, 프로젝트 과정과 고민들을 기록합니다.
 
-개발 공부, 프로젝트 과정을 기록하는 기술 블로그 입니다.
 {: .fs-6 .fw-300 }
-
-[Categories](#getting-started){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
+[ALL of TML](#all-of-tml){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View it on Github](https://github.com/chaemina){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
-## About ME
+## Mina's bio
 
 > Chonnam National University Software Engineering Front-End Developer
-
-| 항목                      | 기술                                               |
-| :------------------------ | :------------------------------------------------- |
-| **라이브러리/프레임워크** | `React` `Next.js`                                  |
-| **빌드 도구**             | `CRA(Create React App)` `Vite`                     |
-| **라우팅 관리**           | `React-Router`                                     |
-| **HTTP 통신**             | `Axios` (Promise API 사용, JSON 자동 파싱)         |
-| **상태 관리**             | `useState(Hook)` `Redux` `Jotai`                   |
-| **데이터 관리**           | `Tanstack(React) Query` (자동 데이터 갱신 및 캐싱) |
 
 React
 {: .label }
@@ -49,7 +39,21 @@ axios
 npm
 {: .label .label-red }
 
-## Getting started
+## **_For Connect Everyone_**
+
+<div class="d-flex flex-justify-between">
+<img src="./assets/images/profile-icon.png" alt="profile Image" aria-label="profile Image" width="300" height="300">
+<p>To use the theme, you do **_not_** need to clone or fork the [Just the Docs repo]! You should do that only if you intend to browse the theme docs locally, contribute to the development of the theme, or develop a new theme based on Just the Docs.</p>
+</div>
+
+## ALL of TML
+
+| Troubleshooting Content Rules |
+| :---------------------------- |
+| 1. 어떤 문제가 있었는지       |
+| 2. 내가 시도해본 것들         |
+| 3. 어떻게 해결했는지          |
+| 4. 무엇을 새롭게 알았는지     |
 
 The [Just the Docs Template] provides the simplest, quickest, and easiest way to create a new website that uses the Just the Docs theme. To get started with creating a site, just click "[use the template]"!
 
