@@ -23,7 +23,7 @@ permalink: /
 
  
 
-  1. [Configuration](http://127.0.0.1:4000/docs/configuration/) 
+  1. [Next.js](http://127.0.0.1:4000/docs/nextjs/) 
 
 
 
@@ -62,7 +62,8 @@ npm
 ## **_For connect everyone !_**
 <img src="./assets/images/profile-icon.png" alt="profile Image" aria-label="profile Image" width="200rem" height="200rem">
 {: .d-flex .float-right}
-사용자와 함께 성장하며, 모두를 연결하는 프론트앤드 개발자. 접근성을 고려하는. 가나다라마바사아자차카타파하.사용자와 함께 성장하며, 모두를 연결하는 프론트앤드 개발자. 접근성을 고려하는. 가나다라마바사아자차카타파하.
+웹 프론트앤드를 개발합니다. 저의 개발 가치관과 소개를 작성합니다. 
+가나다라마바사아자차카타파하. 가나다라마바사아자차카타파하. 가나다라마바사아자차카타파하.가나다라마바사아자차카타파하
 {: .highlight}
 
 
