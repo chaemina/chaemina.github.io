@@ -36,6 +36,4 @@ swift로 앱 개발을 위해 mac os 환경에서 [Xcode](https://developer.appl
 
 ## 프로젝트 정보 입력 
 
-SwiftUI vs Storyboard
-
-어떤 차이인지 몰라서 찾아보았다. 생각보다 스토리 보드로 작업하는 사람들이 많이 존재 했다. ( 공부하는 교재에서도 그랬다 ) 둘은 UI를 어떻게 그릴 것인지에 대한 서로 다른 방법이었다. 스위프트는 코드로, 스토리 보드는 UI kit 처럼 컴포넌트를 긁어와 사용하는 것 같다. 
+[Swift UI](https://chaemina.github.io/docs/swiftUI) 선택 

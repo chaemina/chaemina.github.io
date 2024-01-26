@@ -35,9 +35,10 @@ parent: Swift
 - String
 문자열 (큰 따옴표, 연산으로 문자열 결합 가능, 캐릭터 변수 값 넣을 순 없음)
 
-다른 데이터 타입 간의 자료 교환은 암시적으로 불가능하다. 
-{:.warning}
-
+{: .note-title }
+> **주의**
+>
+> 스위프트에선 다른 데이터 타입 간의 자료 교환이 암시적으로 불가능하다. 
 
 ## keyword
 
@@ -63,10 +64,8 @@ var someAnyObject : AnyObject = SomeClass()
 ### nil
 없음을 의미
 
-{: .note-title }
-> **주의**
->
-> Any와 AnyObject 의 값으로 nil은 넣을 수 없다.
+{:.warning}
+Any와 AnyObject 의 값으로 nil은 넣을 수 없다.
 
 
 
