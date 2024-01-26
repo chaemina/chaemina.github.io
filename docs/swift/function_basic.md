@@ -34,6 +34,7 @@ func functionA(a:Int, b:Int) -> Int { return a+b}
 functionA(a:2, b:4)
 ```
 
+<br/>
 
 ### 2. 반환값 없는 함수 생성하기 
 
@@ -41,8 +42,6 @@ functionA(a:2, b:4)
 ```swift
 func functionB(a: String) -> Void { print(a)}
 ```
-
-<br/>
 
 2️⃣ 반환 타입 생략 
 ```swift

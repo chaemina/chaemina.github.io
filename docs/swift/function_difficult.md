@@ -5,7 +5,7 @@ parent: Swift
 ---
 
 
-# 함수
+# 함수 심화
 {: .no_toc }
 
 Swift는 함수형 프로그래밍 패더라임을 포함하는 다중 패러다임 언어이다.
@@ -69,7 +69,8 @@ functionC(a: "mina") // b: 이나, b: nil 의 경우는 오류 발생
 ```
 
 전달 받는 값의 개수를 알기 어려울 때 사용된다. 
-❗ **주의** 험수 당 하나의 가변 매개변수만을 가질 수 있다.  
+<br/>
+❗ **주의** 함수 당 하나의 가변 매개변수만을 가질 수 있다.  
 
 
 ### 4. 데이터 타입으로서의 함수 
@@ -85,6 +86,7 @@ var functionB: (String,String) -> Void = functionA(a:b:)
 ```
 
 함수 functionA를 변수 functionB에 대입하면, 변수 functionB는 함수 functionA와 같은 기능을 한다.
+<br/>
 ❗ **주의** 반환 타입을 생략 할 수 없다.   
 
 
