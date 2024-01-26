@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 8.Optional
+title: 8. Optional
 parent: Swift
 ---
 
@@ -31,7 +31,7 @@ functionA(a: nil) // ok
 functionB(a: nil) // error
 ```
 
-#### 스위치 문으로 값 여부 확인하기 
+**스위치 문으로 값 여부 확인하기**
 
 ```swift
 switch optionalValue {

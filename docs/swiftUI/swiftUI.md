@@ -3,7 +3,7 @@ layout: default
 title: Swift UI
 nav_order: 4
 has_children: true
-permalink: docs/swift
+permalink: docs/swiftUI
 ---
 
 # Swift

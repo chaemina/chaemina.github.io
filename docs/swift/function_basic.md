@@ -36,12 +36,12 @@ functionA(a:2, b:4)
 
 ### 2. 반환값 없는 함수 생성하기 
 
-1️ 반환 타입 void 
+1. 반환 타입 void 
 ```swift
 func functionB(a: String) -> Void { print(a)}
 ```
 
-2️ 반환 타입 생략 
+1. 반환 타입 생략 
 ```swift
 func functionC(a: String) { print(a)}
 ```
@@ -54,12 +54,12 @@ func functionD() -> Int { return 1}
 
 ### 4. 반환값과 매개변수 모두 없는 함수 생성하기 
 
-1️ 반환 타입 void 
+1. 반환 타입 void 
 ```swift
 func functionE() -> Void{ print("hello")}
 ```
 
-2️ 반환 타입 생략 
+1. 반환 타입 생략 
 ```swift
 func functionF() { print("hello")}
 
