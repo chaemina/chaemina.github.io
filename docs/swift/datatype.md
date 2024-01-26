@@ -63,10 +63,8 @@ var someAnyObject : AnyObject = SomeClass()
 ### nil
 없음을 의미
 
-{: .note-title }
-> ❌
->
-> Any와 AnyObject 의 값으로 nil은 넣을 수 없다.
+{: .highlight}
+Any와 AnyObject 의 값으로 nil은 넣을 수 없다.
 
 
 
