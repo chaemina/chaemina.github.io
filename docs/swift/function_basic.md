@@ -42,11 +42,14 @@ functionA(a:2, b:4)
 func functionB(a: String) -> Void { print(a)}
 ```
 
+<br/>
+
 2️⃣ 반환 타입 생략 
 ```swift
 func functionC(a: String) { print(a)}
 ```
 
+<br/>
 
 ### 3. 매개변수 없는 함수 생성하기 
 
@@ -54,6 +57,7 @@ func functionC(a: String) { print(a)}
 func functionD() -> Int { return 1}
 ```
 
+<br/>
 
 ### 4. 반환값과 매개변수 모두 없는 함수 생성하기 
 
