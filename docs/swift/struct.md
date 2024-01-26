@@ -6,7 +6,8 @@ parent: Swift
 
 
 # 구조체 
-구조체와 클래스는 타입을 정의한다. 구조체와 클래스의 차이는 [해당 글](https://chaemina.github.io/docs/swift/class/)에서 설명한다.
+구조체와 클래스 그리고 이넘은 타입을 정의한다. 구조체와 클래스의 차이는 [class 글](https://chaemina.github.io/docs/swift/class/)에서, 이넘까지 셋의 차이는 
+[enum 글](https://chaemina.github.io/docs/swift/enum/)에서 설명한다.
 {: .fs-6 .fw-300 }
 
 
@@ -69,7 +70,7 @@ print(instanceB) // Sample(propertyA: 100, propertyB: 100)
 
 ```
 
-## ex) Student 라는 구조체 작성 
+## Student 라는 구조체 작성해보기
 
 ### 구조체 작성 
 
@@ -105,7 +106,7 @@ Student.typeMethod()
 
 바로 접근이 가능하다. 
 
-1. 인스턴스 프로퍼티, 메소드 접근 
+2. 인스턴스 프로퍼티, 메소드 접근 
 
 ```swift
 var mina: Student = Student()
