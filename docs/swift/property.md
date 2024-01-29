@@ -6,9 +6,6 @@ parent: Swift
 
 
 # 프로퍼티
-{: .fs-6 .fw-300 }
-
-
 {: .no_toc }
 
 
@@ -35,7 +32,7 @@ parent: Swift
 >
 > 열거형에서는 연산 프로퍼티만 가능하다. <br/> 연산 프로퍼티는 `var` 키워드로만 선언이 가능하다.
 
-### 구조체 Student의 프로퍼티 작성 
+## 구조체 Student의 프로퍼티 작성 
 
 ```swift
 struct Student {
@@ -62,15 +59,15 @@ struct Student {
     static var typeProperty : String = "학생"
 ```
 
-**메소드를 프토퍼티로 변환하기**
+### 메소드를 프토퍼티로 변환하기
+
+**1 매개변수 없는 인스턴스 메소드의 경우**
 
 ```swift
    func selfIntro () {
       print("저는 \(self.name) 입니다.")
    }
  ```
-
- 매개변수 없는 인스턴스 메소드의 경우
  
  ```swift   
     var selIntro : String {
@@ -79,8 +76,9 @@ struct Student {
         }
     }
 ```
-
 읽기 전용 인스턴스 연산 프로퍼티로 작성한다.
+
+**2 매개변수 없는 타입 메소드의 경우**
 
 ```swift
     
@@ -88,8 +86,6 @@ struct Student {
         print("학생 타입 입니다.")
     }
 ```
-
-매개변수 없는 타입 메소드의 경우
 
 ```swift    
     static var selfIntro : String {
@@ -100,15 +96,15 @@ struct Student {
 읽기 전용 타입 연산 프로퍼티로 작성한다. (get 생략 가능)
 
 
-### 프로퍼티 접근 
+## 프로퍼티 접근 
 
-- 타입 프로퍼티 
+### 타입 프로퍼티 
 ```swift
 print(Student.selfIntro)
 print(Student.typeProperty)
 ```
 
-- 인스턴스 프로퍼티
+### 인스턴스 프로퍼티
 ```swift
 // 인스턴스 생성
 var mina : Student = Student()
@@ -121,7 +117,7 @@ print(mina.selIntro)
 print("한국나이 \(mina.koreanAge) 미국 나이 \(mina.westernAge)")
 ```
 
-### 프로퍼티 감시자 
+## 프로퍼티 감시자 
 
 프로퍼티 값이 변경 될 때 원하는 동작을 수행한다.
 저장 프로퍼티 뒤에 블록 willSet(변경 전) didSet(변경 후)을 작성한다.
@@ -150,8 +146,7 @@ myAge.currentAge = 22
 // 작년에는 21 올해는 22
 ```
 
-{:.highlight}
-지역 / 전역 변수에서도 사용이 가능하다.
+### 지역 / 전역 변수에서도 사용이 가능하다.
 
 ```swift
 var a : Int = 100 {

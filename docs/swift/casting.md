@@ -6,10 +6,12 @@ parent: Swift
 
 
 # 타입 캐스팅  
+{: .no_toc }
+
+인스턴스의 타입을 확인하하거나 부모 혹은 자식 클래스의 타입으로 사용할 수 있는 지 확인한다. 
 {: .fs-6 .fw-300 }
 
 
-{: .no_toc }
 
 
 ## Table of contents
@@ -22,8 +24,6 @@ parent: Swift
 
 
 ## 타입 캐스팅
-
-인스턴스의 타입을 확인하하거나 부모 혹은 자식 클래스의 타입으로 사용할 수 있는 지 확인한다. 
 
 ```swift
 class Person {
@@ -52,6 +52,12 @@ var sunny : Student = Student()
 var hana : Univ = Univ()
 ```
 
+부모 클래스 Person을 상속 받은 자식 클래스 Student를 작성한다. </br>
+부모 클래스 Student를 상속 받은 자식 클래스 Univ를 작성한다.
+
+
+## 타입 확인 
+
 `is` 를 사용하여 타입을 확인한다. 
 
 ```swift
@@ -77,7 +83,6 @@ mina is Univ ? print("mina는 대학생") : print("mina는 사람")
 > **주의**
 >
 > 스위치 문을 사용할 때, 셋 다 해당 되는 경우 가장 먼저 만나는 조건에서 멈춘다. 
-
 
 
 ## 업캐스팅

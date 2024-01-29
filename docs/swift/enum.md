@@ -6,9 +6,6 @@ parent: Swift
 
 
 # 열거형  
-{: .fs-6 .fw-300 }
-
-
 {: .no_toc }
 
 
