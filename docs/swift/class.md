@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 9. class
+title: 10. class
 parent: Swift
 ---
 
@@ -57,14 +57,14 @@ class Student {
     }
 }
 ```
-{: .important-title }
+{: .note-title }
 > 클래스 Student 
 >
 > 인스턴스 프로퍼티 : String 타입의 name, Int 타입의 age (둘다 가변) <br/> 타입 프로퍼티 : String 타입의 interest <br/> class 타입 메소드 : typeMethodA() <br/> static 타입 메소드 : typeMethodB() <br/> 인스턴스 메소드 : instanceMethod()
 
 ### 클래스 접근 
 
-1. 타입 프로퍼티, 메소드 접근 
+- 타입 프로퍼티, 메소드 접근 
 
 ```swift
 Student.interest = "책읽기"
@@ -73,7 +73,7 @@ Student.typeMethodA()
 
 바로 접근이 가능하다. 
 
-1. 인스턴스 프로퍼티, 메소드 접근 
+- 인스턴스 프로퍼티, 메소드 접근 
 
 ```swift
 let mina: Student = Student()

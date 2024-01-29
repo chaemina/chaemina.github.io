@@ -62,7 +62,6 @@ func functionE() -> Void{ print("hello")}
 1. 반환 타입 생략 
 ```swift
 func functionF() { print("hello")}
-
 functionF() // 호출 
 ```
 

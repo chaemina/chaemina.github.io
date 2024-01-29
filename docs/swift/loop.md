@@ -24,7 +24,7 @@ parent: Swift
 ## for ... in
 
 
-### Array 
+### 1. Array 
 
 ```swift
 var nums = [1,2,3]
@@ -36,7 +36,7 @@ for num in nums {
 }
 ```
 
-### Dictionary
+### 2. Dictionary
 
 ```swift
 let students = ["mina" :21, "hana": 22, "yusun" :23]

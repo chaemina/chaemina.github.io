@@ -66,11 +66,11 @@ var sum : Int = optionalValue + 1 // error
 
 ## 그러면 어떻게 옵셔널 값에 접근 할까?
 
-### optional binding : 옵셔널 바인딩 
+### 1. optional binding : 옵셔널 바인딩 
 
 nil의 경우를 체크하고, 안전하게 값을 추출한다. 
 
-#### if-let 구문 
+`if-let` 구문 
 
 ```swift
 var myName : String? = nil // optional로 타입 지정, nil값을 가짐
@@ -100,7 +100,7 @@ if let a: String = myName, let b: String = yourName{
 >
 > 단 하나라도 nil 값이면, break
 
-### force unwrapping : 강제 추출
+### 2. force unwrapping : 강제 추출
 
 암시적 추출 옵셔널로 선언하거나, 함수에 전달 할 때 변수 명 뒤 `!` 를 붙이는 경우 
 

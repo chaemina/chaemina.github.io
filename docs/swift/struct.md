@@ -89,14 +89,14 @@ struct Student {
     }
 }
 ```
-{: .important-title }
+{: .note-title }
 > 구조체 Student 
 >
 > 인스턴스 프로퍼티 : String 타입의 name, Int 타입의 age (둘다 가변) <br/> 타입 프로퍼티 : String 타입의 interest <br/> 타입 메소드 : typeMethod() <br/> 인스턴스 메소드 : instanceMethod()
 
 ### 구조체 접근 
 
-1. 타입 프로퍼티, 메소드 접근 
+- 타입 프로퍼티, 메소드 접근 
 
 ```swift
 Student.interest = "책읽기"
@@ -106,7 +106,7 @@ Student.typeMethod()
 
 바로 접근이 가능하다. 
 
-2. 인스턴스 프로퍼티, 메소드 접근 
+- 인스턴스 프로퍼티, 메소드 접근 
 
 ```swift
 var mina: Student = Student()
