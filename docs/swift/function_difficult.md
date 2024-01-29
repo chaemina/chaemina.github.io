@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 6. 함수 심화 
+title: 함수 심화 
 parent: Swift
+nav_order: 6
 ---
 
 

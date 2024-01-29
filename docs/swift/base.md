@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 2. Swift 시작하기
+title: Swift 시작하기
 parent: Swift
+nav_order: 2
 ---
 
 

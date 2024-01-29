@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-3. 구조체 vs 클래스 vs 열거형 
+title: 구조체 vs 클래스 vs 열거형 
 parent: Swift
+nav_order: 12
 ---
 
 

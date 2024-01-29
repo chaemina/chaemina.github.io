@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-2. 열거형
+title: 열거형
 parent: Swift
+nav_order: 11
 ---
 
 

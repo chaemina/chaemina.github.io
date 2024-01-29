@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 1. Xcode 시작하기
+title: Xcode 시작하기
 parent: Swift
+nav_order: 1
 ---
 
 

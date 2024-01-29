@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 8. Optional
+title: Optional
 parent: Swift
+nav_order: 8
 ---
 
 

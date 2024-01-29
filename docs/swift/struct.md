@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9. 구조체 
+title: 구조체 
 parent: Swift
+nav_order: 9
 ---
 
 

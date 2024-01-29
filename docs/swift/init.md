@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-6. 인스턴스 생성과 소멸 
+title: 인스턴스 생성과 소멸 
 parent: Swift
+nav_order: 16
 ---
 
 

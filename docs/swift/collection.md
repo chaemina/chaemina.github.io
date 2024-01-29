@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 4. 컬렉션 타입 
+title: 컬렉션 타입 
 parent: Swift
+nav_order: 4
 ---
 
 

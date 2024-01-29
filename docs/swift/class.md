@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-1. 클래스
+title: 클래스
 parent: Swift
+nav_order: 10
 ---
 
 

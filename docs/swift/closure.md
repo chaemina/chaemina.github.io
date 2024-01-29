@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-4. 클로저 
+title: 클로저 
 parent: Swift
+nav_order: 13
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-9. 타입 캐스팅 
+title: 타입 캐스팅 
 parent: Swift
+nav_order: 18
 ---
 
 

@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 5. 함수 
+title: 함수 
 parent: Swift
+nav_order: 5
 ---
 
 

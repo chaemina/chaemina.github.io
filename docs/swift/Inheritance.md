@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-5. 상속
+title: 상속
 parent: Swift
+nav_order: 15
 ---
 
 

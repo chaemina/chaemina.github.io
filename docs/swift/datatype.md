@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 3. 데이터 타입 
+title: 데이터 타입 
 parent: Swift
+nav_order: 3
 ---
 
 

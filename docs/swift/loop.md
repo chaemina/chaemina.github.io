@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 7. 반복문
+title: 반복문
 parent: Swift
+nav_order: 7
 ---
 
 

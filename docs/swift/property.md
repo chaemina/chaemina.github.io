@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 9-4. 프로퍼티
+title: 프로퍼티
 parent: Swift
+nav_order: 14
 ---
 
 
@@ -59,7 +60,7 @@ struct Student {
     static var typeProperty : String = "학생"
 ```
 
-### 메소드를 프토퍼티로 변환하기
+### 메소드를 프토퍼티로 변 환하기
 
 **1 매개변수 없는 인스턴스 메소드의 경우**
 
