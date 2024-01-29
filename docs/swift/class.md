@@ -1,11 +1,11 @@
 ---
 layout: default
-title: 10. class
+title: 9-1. 클래스
 parent: Swift
 ---
 
 
-# class 
+# 클래스 
 {: .fs-6 .fw-300 }
 
 
@@ -64,7 +64,7 @@ class Student {
 
 ### 클래스 접근 
 
-- 타입 프로퍼티, 메소드 접근 
+- **타입 프로퍼티, 메소드 접근** 
 
 ```swift
 Student.interest = "책읽기"
@@ -73,7 +73,7 @@ Student.typeMethodA()
 
 바로 접근이 가능하다. 
 
-- 인스턴스 프로퍼티, 메소드 접근 
+- **인스턴스 프로퍼티, 메소드 접근** 
 
 ```swift
 let mina: Student = Student()
