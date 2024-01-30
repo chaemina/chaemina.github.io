@@ -10,7 +10,7 @@ permalink: /
 
 
 {: .fs-6 }
-개발 공부, 프로젝트 과정과 고민을 기록하는 기술블로그 
+개발 공부 내용을 기록하는 기술 블로그 
 
 {: .fs-6 .fw-300 }
 [bio](#minas-bio){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -24,15 +24,6 @@ permalink: /
  
 
   1. [Next.js](http://127.0.0.1:4000/docs/nextjs/) 
-
-
-
-| Troubleshooting Content Rules |
-| :---------------------------- |
-| 1. 어떤 문제가 있었는지       |
-| 2. 내가 시도해본 것들         |
-| 3. 어떻게 해결했는지          |
-| 4. 무엇을 새롭게 알았는지     |
 
 
 ## Mina's bio
@@ -62,7 +53,8 @@ npm
 ## **_For connect everyone !_**
 <img src="./assets/images/profile-icon.png" alt="profile Image" aria-label="profile Image" width="200rem" height="200rem">
 {: .d-flex .float-right}
-웹 프론트앤드를 개발합니다. 
+웹과 앱 프론트앤드를 개발합니다. 이 기술 블로그는 오직 공부한 내용을 정리하기 위한 용도입니다. 프로젝트 과정과 트러블 슈팅, 주니어 개발자로서 저의 
+이야기는 [여기](https://medium.com/@chaemina8282)를 찾아주세요. 
 {: .highlight}
 
 

@@ -55,6 +55,7 @@ class Student {
     }
 }
 ```
+
 {: .note-title }
 > 클래스 Student 
 >
