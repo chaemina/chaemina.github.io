@@ -59,7 +59,7 @@ class Student {
 {: .note-title }
 > 클래스 Student 
 >
-> 인스턴스 프로퍼티 : String 타입의 name, Int 타입의 age (둘다 가변) <br/> 타입 프로퍼티 : String 타입의 interest <br/> class 타입 메소드 : typeMethodA() <br/> static 타입 메소드 : typeMethodB() <br/> 인스턴스 메소드 : instanceMethod()
+> **인스턴스 프로퍼티**  String 타입의 name, Int 타입의 age (둘다 가변) <br/> **타입 프로퍼티**  String 타입의 interest <br/> **class 타입 메소드**  typeMethodA() <br/> **static 타입 메소드**  typeMethodB() <br/> **인스턴스 메소드**  instanceMethod()
 
 ### 클래스 접근 
 

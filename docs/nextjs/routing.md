@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 2. 라우팅 
+title: 라우팅 
 parent: Next.js
+nav_order: 2
 ---
 
 

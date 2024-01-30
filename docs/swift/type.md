@@ -7,12 +7,14 @@ nav_order: 12
 
 
 # 구조체 vs 클래스 vs 열거형 
+{: .no_toc }
+
 구조체와 클래스 그리고 열거형은 타입을 정의한다. [구조체 글](https://chaemina.github.io/docs/swift/struct/),[클래스 글](https://chaemina.github.io/docs/swift/class/),
 [열거형 글](https://chaemina.github.io/docs/swift/enum/) 참조 
 {: .fs-6 .fw-300 }
 
 
-{: .no_toc }
+
 
 
 ## Table of contents

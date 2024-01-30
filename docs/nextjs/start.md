@@ -1,7 +1,8 @@
 ---
 layout: default
-title: 1. Next.js 시작하기
+title: Next.js 시작하기
 parent: Next.js
+nav_order: 1
 ---
 
 
