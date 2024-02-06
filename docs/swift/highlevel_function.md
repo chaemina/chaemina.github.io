@@ -108,5 +108,6 @@ let sum : Int = numbers.reduce(0, { $0 + $1})
  
 print(sum)
 ```
-{: .warning}
+
 곱셈 연산의 경우, 초기값을 1로 지정해야 한다. 
+{: .warning}

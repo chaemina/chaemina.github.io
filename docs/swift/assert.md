@@ -39,7 +39,7 @@ someInt = 1
 
 assert(someInt == 0, "someInt!=0")
 ```
- <img src="./assets/images/assert1.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
+ <img src="../../../assets/images/assert1.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
 
 {: .warning}
 디버딩 모드에서만 작동한다. 
@@ -62,7 +62,7 @@ functionAge(age: -1)
 functionAge(age: nil)
 ```
 
- <img src="./assets/images/assert2.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
+ <img src="../../../assets/images/assert2.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
 
 
 ## guard
@@ -99,9 +99,9 @@ functionAge(age: 22) // 생일 축하 합니다!
 assert의 경우 강제 종료되며 에러가 발생하는데, guard의 경우 if else 구문처럼 특정 조건을 벗어나는 경우 구문이 실행된다. 
 assert는 정말 들어가면 안되는 값들에 대한 검사, guard의 경우 조건문 처럼 사용할 수 있다. 
 
-## 활용 
+### 활용 
 
-### 반복문에서의 조건 
+**반복문에서의 조건**
 
 ```swift
 var cnt = 1
@@ -116,7 +116,7 @@ while true {
 ```
 cnt 값이 3보다 작지 않은 경우 break한다. 
 
-### 캐스팅 
+**캐스팅** 
 
 ```swift
 func someFunc(info: [String: Any]){

@@ -35,7 +35,7 @@ enum 오류 종류 이름: Error {
 }
 ```
 
-## 오류 정의 
+### 오류 정의 
 
 ```swift
 enum MyError: Error {
@@ -44,7 +44,7 @@ enum MyError: Error {
 }
 ```
 
-## 함수에서 오류 처리 
+### 함수에서 오류 처리 
 ```swift
 class Func {
     var num : Int = 100
@@ -65,7 +65,7 @@ var myFunc : Func = Func()
 myFunc.numSum(n: -100)
 ```
 
- <img src="./assets/images/error.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
+ <img src="../../../assets/images/error.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
 
 ## try 
 
