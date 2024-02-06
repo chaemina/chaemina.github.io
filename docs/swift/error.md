@@ -65,7 +65,7 @@ var myFunc : Func = Func()
 myFunc.numSum(n: -100)
 ```
 
- <img src="../../../assets/images/error.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
+ <img src="../../../assets/images/error.png" alt="assert Image" aria-label="assert Image" width="600" height="600">
 
 ## try 
 

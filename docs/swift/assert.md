@@ -39,7 +39,7 @@ someInt = 1
 
 assert(someInt == 0, "someInt!=0")
 ```
- <img src="../../../assets/images/assert1.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
+ <img src="../../../assets/images/assert1.png" alt="assert Image" aria-label="assert Image" width="600" height="600">
 
 {: .warning}
 디버딩 모드에서만 작동한다. 
@@ -62,7 +62,7 @@ functionAge(age: -1)
 functionAge(age: nil)
 ```
 
- <img src="../../../assets/images/assert2.png" alt="assert Image" aria-label="assert Image" width="50" height="30">
+ <img src="../../../assets/images/assert2.png" alt="assert Image" aria-label="assert Image" width="600" height="600">
 
 
 ## guard
