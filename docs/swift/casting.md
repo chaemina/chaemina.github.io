@@ -88,6 +88,65 @@ mina is Univ ? print("mina는 대학생") : print("mina는 사람")
 
 ## 업캐스팅
 
+`as`를 사용하여 부모 클래스의 인스턴스로 사용 할 수 있도록 컴파일러에게 타입 정보를 전환해준다. 
+any 혹은 any object 타입 정보로 변환이 가능하다. 
+암시적으로 처리 되기 때문에 생략해도 된다. 
+
+ `하위 클래스 as 상위 클래스`
+변환이 가능한가? 여부 
+
+```swift
+var mina : Person = Univ() as Person
+// type은 person이지만, 실질적으로 할당 된 값은 univ()
+```
+
+
 ## 다운 캐스팅 
 
+`as?` 또는 `as!`를 사용하여 자식 클래스의 인스턴스로 사용할 수 있도록 컴파일러에게 인스턴스의 타입 정보를 전환해준다. 
 
+ `상위 클래스 as? 하위 클래스`
+변환이 가능한가? 여부, 실패 할 수 있기 때문에 옵셔널을 붙이는 것이다. 
+
+### as? 조건부 다운 캐스팅 
+
+```swift
+var optionalCasted : Student?
+
+optionalCasted = mina as? Univ
+optionalCasted = sunny as? Univ  // nil
+``` 
+
+### as! 강제 다운 캐스팅 
+
+```swift
+var forcedCasted : Student 
+
+forcedCasted = mina as! Univ
+forcedCasted = sunny as! Univ // runtime error
+```
+
+## 활용 
+
+```swift
+var mina : Person = Univ() as Person
+var sunny : Student = Student()
+var hana : Univ = Univ()
+
+func doSomething(someone : Person) {
+    switch someone{
+    case is Univ:
+        (someone as! Univ).goToMT()
+        
+    case is Student:
+        (someone as! Student).goToSchool()
+    case is Person:
+        (someone as! Person).breath()
+    }
+}
+
+doSomething(someone: mina as Person) // 엠티를 갑니다.
+doSomething(someone: mina) // 엠티를 갑니다.
+doSomething(someone: sunny) // 등교를 합니다. 
+doSomething(someone: hana) // 엠티를 갑니다. 
+```
