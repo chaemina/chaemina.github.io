@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 백그라운드와 오버레이 
-parent: swiftUI
+parent: Swift UI
 nav_order: 6
 ---
 

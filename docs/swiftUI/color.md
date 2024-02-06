@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 색상
-parent: swiftUI
+parent: Swift UI
 nav_order: 3
 ---
 

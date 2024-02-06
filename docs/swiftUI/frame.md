@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 배치 
-parent: swiftUI
+parent: Swift UI
 nav_order: 5
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 도형
-parent: swiftUI
+parent: Swift UI
 nav_order: 2
 ---
 

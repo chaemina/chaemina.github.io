@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 폰트 
-parent: swiftUI
+parent: Swift UI
 nav_order: 1
 ---
 

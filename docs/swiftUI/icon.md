@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 아이콘 
-parent: swiftUI
+parent: Swift UI
 nav_order: 4
 ---
 
