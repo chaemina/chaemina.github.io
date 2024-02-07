@@ -21,8 +21,9 @@ nav_order: 9
 
 ## Button
 
-
- `Button(action: {}, label: {})`
+```swift
+Button(action: {}, label: {})
+```
 
 
 라벨에 해당하는 부분을 클릭하면, action 로직이 실행된다. 
@@ -126,7 +127,9 @@ struct BindingChild: View {
 
 ## Toggle
 
- `Toggle(isOn: ){ title }`
+```swift
+  Toggle(isOn: ){ title }
+ ``` 
 
 Swift UI에서는 토글 형태의 버튼을 지원한다. 
 
@@ -140,3 +143,4 @@ Swift UI에서는 토글 형태의 버튼을 지원한다.
         }
      Toggle(isOn: $isToggleOn){ Text("로그인 상태 선택") }
 ```
+
