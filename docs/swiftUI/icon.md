@@ -34,7 +34,7 @@ Image(systemName: "square.and.arrow.up")
 
 ### 속성 
 
-`.resizeable()` 사이즈 변경 가능하도록 설정 <br/>
-`.renderingMode(.original)` 고유 컬러 적용 (커스텀 불가) <br/>
-`foregroundColor` fill 메소드 적용 불가 
+1. `.resizeable()` 사이즈 변경 가능하도록 설정 
+1. `.renderingMode(.original)` 고유 컬러 적용 (커스텀 불가) 
+1. `foregroundColor` fill 메소드 적용 불가 
 

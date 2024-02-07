@@ -22,5 +22,6 @@ SwiftUI vs Storyboard
 Swift UI는 스토리 보드와는 독립적으로 작동하는 새로운 개발 패러다임을 제시하며 스토리보드와 같이 시각적 편집도구를 사용하지 않고 코드를 통해 UI를 구성한다. <br/>
 따라서, 둘은 서로 다른 UI 개발 방식을 제공한다. 
 
-# swift UI 시작하기 
+swift UI 시작하기 
+{: .fs-6 .fw-300 }
 [swift UI 시작하기](https://developer.apple.com/tutorials/swiftui-concepts/exploring-the-structure-of-a-swiftui-app)

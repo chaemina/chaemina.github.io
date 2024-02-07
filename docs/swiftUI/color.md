@@ -38,7 +38,7 @@ Color.primary
 
 ### UI color 
 
-애플에서 지원하는 색상 키드이다. 
+애플에서 지원하는 색상 키트이다. 
 
 ```swift
 Color(UIColor.secondarySystemFill)
@@ -46,7 +46,7 @@ Color(UIColor.secondarySystemFill)
 
 ### Custom color
 
-assets에서 만든 헥사 코드 색상을 사용한다. 
+assets에서 직접 설정한 헥사 코드 색상을 사용한다. 
 
 ```swift
 Color("CustomColor")

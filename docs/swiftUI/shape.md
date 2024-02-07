@@ -21,11 +21,14 @@ nav_order: 2
 
 ## Shape 
 
-원형 `Circle()` <br/>
-타원형 `Ellipse()` <br/>
-캡슐형 `Capsule(style: .continuous || .circular)` <br/>
-직사각형 `Rectangle()` <br/>
-둥근 직사각형 `RoundedRectangle(cornerRadius: 20)` 
+```swift
+Circle() // 원형 
+Ellipse() // 타원형
+Capsule(style: .continuous || .circular) // 캡슐형 
+Rectangle() // 직사각형 
+RoundedRectangle(cornerRadius: 20) // 둥근 직사각형 
+```
+
 
 ### 색상 
 
@@ -40,15 +43,13 @@ nav_order: 2
 .stroke(Color.orange, lineWidth: 5)
 ```
 
-{: .warning}
-stroke와 foregroundColor 동시에 사용 불가
+`stroke`은 `foregroundColor`와 동시에 사용 할 수 없다. 
 
 ```swift
 .stroke(Color.purple, style: StrokeStyle(lineWidth:20, lineCap: .round, dash: [30]))
 ```
 
-{: .warning}
-StrokeStyle과 fill 동시에 사용 불가 
+`StrokeStyle`은 `fill`과 동시에 사용 할 수 없다. 
 
 ### 변형 
 
@@ -56,8 +57,8 @@ StrokeStyle과 fill 동시에 사용 불가
 .trim(from: 0.2 to: 1)
 ```
 
-{: .warning}
-trim과 fill, foregroundColor 동시에 사용 불가 <br/> trim과 stroke 동시에 사용하려면, trim을 먼저 선언해야 한다. 
+1. `trim`은 `fill`이나 `foregroundColor`과 동시에 사용할 수 없다. 
+1. `trim`과 `stroke`을 동시에 사용하려면, `trim`을 먼저 선언해야 한다. 
 
 ### 크기 
 
@@ -69,7 +70,7 @@ trim과 fill, foregroundColor 동시에 사용 불가 <br/> trim과 stroke 동�
 {: .note-title }
 > **주의**
 >
-> 원형은 가로 세로 사이즈 같게 지정해야한다.  <br/> 그렇지 않은 경우, 더 작은 크기의 사이즈로 적용된다. 
+> 원형은 가로와 세로 사이즈를 같게 지정해야한다.  <br/> 그렇지 않은 경우, 더 작은 사이즈의 값으로 적용된다. 
 
 
 

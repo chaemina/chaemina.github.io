@@ -48,6 +48,10 @@ nav_order: 5
 1. 최대한으로 늘릴 때 `maxWidth:.infinity, maxHeight: .infinity`
 
 
+### 프레임 확인 
+
+프레임은 요소의 부모 틀과 같아서, 프레임 지정 후 색상을 적용하면 요소가 배치 된 기준을 확인 할 수 있다. 
+
 ```swift
 VStack(spacing:20) {
             Text("hello world")
@@ -59,8 +63,8 @@ VStack(spacing:20) {
         }
 ```
 
-<img src="../../../assets/images/frame.png" alt="assert Image" aria-label="assert Image" width="500" height="500">
+<img src="../../../assets/images/frame.png" alt="assert Image" aria-label="assert Image" width="300" height="500">
 
 
-프레임은 요소의 부모 틀과 같아서, 프레임 지정 후 색상을 적용하면 요소가 배치 된 기준을 확인 할 수 있다. 
+
 

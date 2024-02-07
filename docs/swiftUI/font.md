@@ -22,7 +22,9 @@ Swift UI에 관한 모든 개념은 인프런의 [해당강의](https://www.infl
 ---
 
 
-## responsive 하게 지정 
+## font 
+
+### responsive 하게 지정 
 
 `title` `body` `footnote` 등으로 지정하면, 반응형으로 폰트 사이즈가 동작한다. 
 
@@ -41,7 +43,7 @@ Text("Hello, World!")
 ```
 
 
-## system으로 크기 지정 
+### system으로 크기 지정 
 
 크기를 고정적으로 지정한다. 
 
@@ -50,7 +52,7 @@ Text("hello world 2".uppercased())
      .font(.system(size: 20, weight: .bold, design: .serif))
 ```
 
-## 멀티 라인 
+### 멀티 라인 
 
 ```swift
 Text("멀티라인 텍스트 정렬입니다. 멀티라인 텍스트 정렬입니다. 멀티라인 텍스트 정렬입니다.")
