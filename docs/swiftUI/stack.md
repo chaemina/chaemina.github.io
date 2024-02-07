@@ -76,7 +76,7 @@ ZStack(){
 
 상하 패딩값이 적용된다. 
 
-***3번 padding**
+**3번 padding**
 
 <img src="../../../assets/images/padding3.png" alt="padding Image" aria-label="padding Image" width="300" height="500">
 
