@@ -152,7 +152,7 @@ Sheet애서 닫는 버튼을 만들고 싶으면, 환경변수 `@Environment`로
 
 
 {: .note-title }
-> **주의**
+> **중요**
 >
 > sheet는 스크롤을 내려서 시트를 닫을 수 있는 반면, fullScreenCover은 닫을 수 없기 때문에 닫기 버튼이 필요하다. 
 

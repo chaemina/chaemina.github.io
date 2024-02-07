@@ -21,9 +21,9 @@ nav_order: 9
 
 ## Button
 
-```swift
-Button(action: {}, label: {})
-```
+
+ `Button(action: {}, label: {})`
+
 
 라벨에 해당하는 부분을 클릭하면, action 로직이 실행된다. 
 
@@ -124,4 +124,19 @@ struct BindingChild: View {
 
 부모 뷰에서 넘겨 준 `@State` 인자를 바인딩 할때는 `@Binding` 으로 선언한다. 
 
-    
+## Toggle
+
+ `Toggle(isOn: ){ title }`
+
+Swift UI에서는 토글 형태의 버튼을 지원한다. 
+
+```swift
+@State var isToggleOn : Bool = false
+
+    HStack {
+       Text("로그인 상태")
+       Text(isToggleOn ? "로그인" : "로그아웃")
+           .foregroundColor(isToggleOn ? .blue : .red)
+        }
+     Toggle(isOn: $isToggleOn){ Text("로그인 상태 선택") }
+```
