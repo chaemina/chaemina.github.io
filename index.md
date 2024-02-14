@@ -24,6 +24,8 @@ permalink: /
  
 
   1. [Next.js](http://127.0.0.1:4000/docs/nextjs/) 
+  2. [Swift 문법](https://chaemina.github.io/docs/swift)
+  3. [Swift UI](https://chaemina.github.io/docs/swiftUI)
 
 
 ## Mina's bio
@@ -53,8 +55,7 @@ npm
 ## **_For connect everyone !_**
 <img src="./assets/images/profile-icon.png" alt="profile Image" aria-label="profile Image" width="200rem" height="200rem">
 {: .d-flex .float-right}
-웹과 앱 프론트앤드를 개발합니다. 이 기술 블로그는 오직 공부한 내용을 정리하기 위한 용도입니다. 프로젝트 과정과 트러블 슈팅, 주니어 개발자로서 저의 
-이야기는 [여기](https://medium.com/@chaemina8282)를 찾아주세요. 
+웹과 앱 프론트앤드를 개발합니다. 기술 블로그에서는 오직 공부 내용만을 정리하고 있습니다. 프로젝트 과정과 트러블 슈팅, 주니어 개발자로서의 이야기는 [여기](https://medium.com/@chaemina8282)에 나와있습니다. 
 {: .highlight}
 
 

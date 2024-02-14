@@ -3,6 +3,7 @@ layout: default
 title: 라우팅 
 parent: Next.js
 nav_order: 2
+has_children: true
 ---
 
 
@@ -78,4 +79,54 @@ export default function Page() {
 
 {: .warning }
 폴더 내부에 page.jsx 파일 생성 하지 않으면 페이지 생성 되지 않음!
+
+페이지가 폴더 단위로 생성되기 때문에, 프로젝트의 규모가 커질 수록 헷갈리기 쉽다. 
+
+### 파일 규칙 
+
+- `layout` 세그먼트 및 해당 하위 항목에 대한 공유 UI
+- `page` 경로의 고유한 UI 및 경로에 공개적으로 액세스 
+- `loading` 세그먼트 및 해당 하위 항목에 대한 UI 로드 중일 때 
+- `not-found` 세그먼트 및 해당 하위 항목에 대한 오류 UI 
+- `error` 세그먼트 및 해당 하위 항목에 대한 오류 UI
+- `global-error` 전역 오류 UI 
+- `route` 서버 측 API 엔드포인트 
+- `template` 전문적으로 다시 렌더링 된 레이아웃 UI
+- `default` 병렬 경로에 대한 대체 UI
+
+
+### 구성 요소 계층
+
+Directory Structure
+
+```markdown
+folder
+| - layout.js
+| - error.js
+| - loading.js
+| - innerFolder
+     | - layout.js
+     | - error.js
+     | - loading.js
+     | - page.js
+```
+
+Component Hierarchy
+
+```jsx
+<Layout>
+  <ErrorBoundary fallback={<Error />}>
+    <Suspense fallback={<Loading />}>
+       <Layout>
+         <ErrorBoundary fallback={<Error />}>
+            <Suspense fallback={<Loading />}>
+              <Page />
+            </Suspense>
+        </ErrorBoundary>
+      </Layout>
+    </Suspense>
+  </ErrorBoundary>
+</Layout>
+```
+
 
