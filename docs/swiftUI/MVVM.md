@@ -9,7 +9,7 @@ nav_order: 17
 # MVVM
 {: .no_toc }
 
-Swift UI로 프로젝트를 만들 땐, MVVM 구조로 디렉토리를 구성한다. 
+Swift UI로 프로젝트를 만들기 위해서는 MVVM 구조로 디렉토리를 구성한다. 
 {: .fs-6 .fw-300 }
 
 ## Table of contents
@@ -23,9 +23,9 @@ Swift UI로 프로젝트를 만들 땐, MVVM 구조로 디렉토리를 구성한
 
 ## MVVM
 
-- Model : 앱의 데이터와 비즈니스 로직을 캡슐화, 뷰와 독립적이다. `struct`
-- View Model : Model과 View 사이의 중재자로, 로직을 정의한다. 뷰에는 데이터를 제공하고 모델에는 업데이트를 요청한다. `class`
-- View : 앱 화면에 시각적 요소들로 인터페이스를 정의한다. `class`
+- **Model**  앱의 데이터와 비즈니스 로직을 캡슐화, 뷰와 독립적이다. `struct`
+- **View Model**  Model과 View 사이의 중재자로, 로직을 정의한다. 뷰에는 데이터를 제공하고 모델에는 업데이트를 요청한다. `class`
+- **View**  앱 화면에 시각적 요소들로 인터페이스를 정의한다. `class`
 
 ```markdown
 -project
@@ -51,7 +51,7 @@ struct FruitModel: Identifiable {
 ```
 
 swift 파일을 생성하고, 구조체를 작성한다. <br/>
-필수적으로 고유 아이디 값을 생성하고 이를 문자열로 변환하는 코드(`UUID().uuidString`)를 포함 해야 한다. 
+필수적으로 고유 아이디 값을 생성하고 이를 문자열로 변환하는 코드`UUID().uuidString`를 포함 해야 한다. 
 
 
 ## ViewModel 
@@ -107,7 +107,7 @@ class FruitViewModel: ObservableObject {
 ### `@StateObject` 와 `@ObservedObject`
 
 - 공통점 : 뷰모델을 객체화 하여 뷰에 불러와 사용할 수 있도록 한다. 
-- 차이점 ; `@StateObject`는 부모 뷰에서, `@ObservedObject`는 자식 뷰에서 사용한다. 
+- 차이점 : `@StateObject`는 부모 뷰에서, `@ObservedObject`는 자식 뷰에서 사용한다. 
 
 ```swift
 struct FruitView: View {
@@ -127,22 +127,17 @@ struct FruitView: View {
                                 .foregroundColor(.blue)
                             
                             Text(fruit.name)
-                        }
-                    }
-                }
-            }
-    }
-}
 ```
 
+---
 
 ## ios 17 
 
 ### ViewModel 
 
-ios 17 부터 뷰모델에서 `ObservableObject` 대신, `@Obsevavle`을 사용한다. 
+ios 17 부터 뷰모델에서 `ObservableObject` 대신 `@Obsevavle`을 사용한다. <br/>
 
-**기존에 뷰모델 작성하는 법**
+*기존에 뷰모델 작성하는 법*
 
 ```swift
 // MARK: - 기존에 만들었던 뷰 모델 방식
@@ -153,7 +148,7 @@ class OriginalViewModel: ObservableObject {
 }
 ```
 
-**ios 17 부터**
+*ios 17 부터*
 
 ```swift
 // MARK: - ios17부터
@@ -167,9 +162,9 @@ class NewVersionViewModel {
 
 ### View
 
-ios 17부터 뷰에서 `@EnvironmentObject` 대신, `@Environment`을 사용한다. 
+ios 17부터 뷰에서 `@EnvironmentObject` 대신 `@Environment`을 사용한다.  <br/>
 
-**기존에 뷰모델을 뷰로 가져오는 법**
+*기존에 뷰모델을 뷰로 가져오는 법*
 
 ```swift
 struct OriginalView: View { 
@@ -177,7 +172,7 @@ struct OriginalView: View {
 }
 ```
 
-**ios 17 부터**
+*ios 17 부터*
 
 ```swift
 struct NewVersionView: View {
@@ -192,9 +187,9 @@ struct NewVersionView: View {
 
 ### 전역에서 뷰모델 사용하는 경우 
 
-최상단 뷰에 작성한다. 
+최상단 뷰에서 전역 변수를 생성한다. <br/>
 
-**기존에 전역 변수 생성하는 법**
+*기존에 전역 변수 생성하는 법*
 
 ```swift
 @main
@@ -210,7 +205,7 @@ struct MVVMProjectApp: App {
 }
 ```
 
-**ios 17 부터**
+*ios 17 부터*
 
 ```swift
 @main

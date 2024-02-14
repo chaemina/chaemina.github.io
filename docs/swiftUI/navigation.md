@@ -155,3 +155,33 @@ Sheet애서 닫는 버튼을 만들고 싶으면, 환경변수 `@Environment`로
 >
 > sheet는 스크롤을 내려서 시트를 닫을 수 있는 반면, fullScreenCover은 닫을 수 없기 때문에 닫기 버튼이 필요하다. 
 
+### sheet에서 navigatio 사용 
+
+sheet안에서 navigation link 버튼은 disable 되어 사용 할 수 없다. 
+
+```swift
+struct NavigationWithSheet: View {
+     
+    @State private var showSheet : Bool = false
+    @State private var navigate : Bool = false
+
+        var body: some View {
+        NavigationStack {
+            VStack {
+                Button("show Sheet") {
+                    showSheet.toggle()
+                }
+            }
+            .navigationTitle("naviagation with sheet")
+            .sheet(isPresented: $showSheet, content: {
+                Button("Button Link"){
+                        showSheet = false
+                        navigate = true
+                    }})
+            .navigationDestination(isPresented: $navigate) {
+                Text("Destination from Button")
+            }
+        } // : navigation stack
+```
+
+navigation destination의 ispresented 속성을 사용 하여 해결 한다. 
