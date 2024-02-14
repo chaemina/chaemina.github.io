@@ -12,11 +12,16 @@ nav_order: 3
 여러 페이지에서 공유되는 UI이다. 
 {: .fs-6 .fw-300 }
 
-상태를 보존하며 상호 작용이 유지되고, 다시 렌더링 되지 않는다. <br/>
-경로의 **레이아웃은 기본적으로 중첩**된다. <br/>
-각 상위 레이아웃은 React children prop을 사용하여 그 아래 하위 레이아웃을 래핑한다. <br/>
-**서버 구성 요소**이지만, 클라이언트 구성 요소로 설정 할 수 있다. <br/>
-데이터를 가져 올 순 있지만, 상위 레이아웃과 하위 레이아웃 간의 데이터 전달은 불가능하다. <br/>
+상태를 보존하며 상호 작용이 유지되고, 다시 렌더링 되지 않는다.
+
+경로의 **레이아웃은 기본적으로 중첩**된다.
+
+각 상위 레이아웃은 React children prop을 사용하여 그 아래 하위 레이아웃을 래핑한다. 
+
+**서버 구성 요소**이지만, 클라이언트 구성 요소로 설정 할 수 있다. 
+
+데이터를 가져 올 순 있지만, 상위 레이아웃과 하위 레이아웃 간의 데이터 전달은 불가능하다. 
+
 
 ```jsx
 export default function Layout({children}) {
@@ -40,7 +45,8 @@ export default function Layout({children}) {
 
 ## 루트 레이아웃 (필수)
 
-디렉토리의 최상위 수준에서 정의, **app의 모든 경로에 적용**되는 레이아웃이다. (error, not-found page에도 적용됨) <br/>
+디렉토리의 최상위 수준에서 정의, app의 모든 경로에 적용되는 레이아웃이다. (error, not-found page에도 적용됨) 
+
 Next.js는 루트 레이아웃이 자동 생성되지 않아서 내장된 SEO 지원을 사용하여 HTML 요소로 관리해야 한다. 
 
 ```jsx
@@ -63,7 +69,8 @@ export default function RootLayout({ children }) {
 
 ## 중첩 레이아웃 
 
-폴더 내부에 정의 된 레이아웃은 특정 경로 세그먼트에 적용되고, 해당 세그먼트가 활성화 될 때 렌더링 된다. <br/>
+폴더 내부에 정의 된 레이아웃은 특정 경로 세그먼트에 적용되고, 해당 세그먼트가 활성화 될 때 렌더링 된다. 
+
 
 ```markdown
 app
@@ -76,7 +83,7 @@ app
 기본적으로 파일 계층 구조의 레이아웃은 중첩되어 있다. 
 
 
-<img src="../../../assets/images/layout1.png" alt="layout" aria-label="layout Image" width="500" height="300">
+<img src="../../../assets/images/layout1.png" alt="layout" aria-label="layout Image" width="300" height="100">
 
 ```jsx
 export default function Page2layout({ children }) {
@@ -88,7 +95,8 @@ export default function Page2layout({ children }) {
   );
 }
 ```
-children prop으로 하위 레이아웃을 매핑한다. <br/>
+children prop으로 하위 레이아웃을 매핑한다. 
+
 즉, 루트 레이아웃 (app/layout.jsx) 은 page2 레이아웃 (app/page2/layout.jsx) 을 래핑하고, page2 레이아웃은 내부 경로 
 세그먼트 (app/page2/*) 를 래핑한다. 
 
@@ -104,11 +112,14 @@ app
 
 page2와 page3에 동일한 레이아웃을 적용하고 싶다면, 상위 폴더 (page2) 내부에 layout을 작성한다. 
 
-<img src="../../../assets/images/layout2.png" alt="layout" aria-label="layout Image" width="500" height="300">
+<img src="../../../assets/images/layout2.png" alt="layout" aria-label="layout Image" width="300" height="100">
 
 
-{: .highlight}
-💡 레이아웃은 자신보다 하위의 요소들을 props로 받기 때문에 해당 페이지의 상위 (해당 폴더도 포함) 레이아웃은 모두 적용된다. 
+{: .note-title }
+> **결론**
+>
+> 레이아웃은 자신보다 하위의 요소들을 props로 받기 때문에 해당 페이지의 상위 (해당 폴더도 포함) 레이아웃은 모두 적용된다. 
+
 
 ## 레이아웃 vs 템플릿 
 
