@@ -41,12 +41,10 @@ Button(action: {}, label: {})
 ```swift 
 @State var mainTitle : String = "아직 버튼 안눌림"
 
-
 var body: some View {
         VStack(spacing: 20){
            
             Text(mainTitle)
-                .font(.title)
             
             Button(action: {
                 // 변수 mainTitle 의 컨텐츠 변화 시킴
@@ -113,11 +111,7 @@ struct BindingChild: View {
             title = "Biding Child View"
         }, label: {
             Text("Child View 이동")
-                .foregroundColor(.white)
-                .padding()
-                .padding(.horizontal)
                 .background(buttonColor)
-                .cornerRadius(10)
         })
     }
 }
@@ -128,8 +122,8 @@ struct BindingChild: View {
 ## Toggle
 
 ```swift
-  Toggle(isOn: ){ title }
- ``` 
+Toggle(isOn: ){ title }
+``` 
 
 Swift UI에서는 토글 형태의 버튼을 지원한다. 
 

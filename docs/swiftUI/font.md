@@ -9,7 +9,7 @@ nav_order: 1
 # 폰트 
 {: .no_toc }
 
-Swift UI에 관한 모든 개념은 인프런의 [해당강의](https://www.inflearn.com/course/누구나-swiftui-ios16)를 수강하고 작성하였다.
+Swift UI에 관한 모든 개념은 인프런의 [해당강의](https://www.inflearn.com/course/누구나-swiftui-ios16)를 통해 학습했다. 
 {: .fs-6 .fw-300 }
 
 

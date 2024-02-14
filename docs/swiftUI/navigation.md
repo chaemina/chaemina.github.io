@@ -26,7 +26,6 @@ nav_order: 11
 ```swift
 var body : some View {
     NavigationView {
-
     } // : navigation view 
 }
 ```

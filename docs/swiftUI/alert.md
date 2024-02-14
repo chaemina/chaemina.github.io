@@ -40,12 +40,13 @@ Button (action: {
 
 content에서 Alert을 커스텀 한 함수를 호출한다. 
 
-### 삭제, 취소 버튼 
+### 버튼을 갖는 Alert 
 
 ```swift
 func getAlert() -> Alert {
         return Alert(
-            title: , message: ,
+            title: , 
+            message: ,
             primaryButton: , 
             secondaryButton:
         )}
@@ -53,15 +54,16 @@ func getAlert() -> Alert {
 
 반환 타입으로 title, 1번 버튼, 2번 버튼을 가지는 Alert 구조체를 리턴한다. 
 
-**삭제 버튼**
-
-`.destructive(label: Text("삭제"), action: 삭제버튼 클릭시 발생)`
-
 **취소 버튼**
 
 `.cancel(Text("취소"))`
 
-취소 버튼의 동작은 지원하지만, 삭제 버튼의 동작은 정의 해줘야 한다. <br/>
+**삭제 버튼**
+
+`.destructive(label: Text("삭제"), action: 삭제버튼 클릭시 발생)`
+
+
+취소 버튼의 동작은 swift에서 기본으로 지원하지만, 삭제 버튼의 동작은 개별로 정의 해줘야 한다. <br/>
 
 
 
@@ -82,35 +84,23 @@ Alert의 케이스를 enum으로 정의한다.
 func getAlert() -> Alert {
         switch alertType {
         case .success:
-            return Alert(
-                title: Text("성공"),
-                message: Text("성공 메세지"),
-                dismissButton: .default(Text("OK")) {
-                    backgroundColor = .green
-                }
+            return Alert( 
+            //... 코드 
             )
         case .error:
             return Alert(
-                title: Text("실패"),
-                message: Text("실패 메세지"),
-                dismissButton: .default(Text("OK")) {
-                    backgroundColor = .red
-                }
+            //... 코드 
             )
         case nil:
             return Alert(
-                title: Text("원인 모르는 에러 발생"),
-                message: Text("원인을 알 수 없는 에러입니다."),
-                dismissButton: .default(Text("OK")) {
-                    backgroundColor = .purple
-                }
+            //... 코드 
             )
         }
     }
 
 ```
 
-switch 구문으로 케이스 별 반환 될 Alert 구조체를 작성한다. 
+switch 구문으로 alertType을 case 별로 지정해준다. 
 
 
 ```swift
@@ -129,4 +119,4 @@ HStack(spacing:10) {
          }.alert(isPresented: $showAlert, content: { getAlert() })
 ```
 
-Type에 맞게 Alert이 호출 된다. 
+상황에 맞게 alertType을 선언하여 Alert을 호출한다. 

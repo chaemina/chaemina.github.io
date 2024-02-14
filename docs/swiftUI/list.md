@@ -26,9 +26,9 @@ nav_order: 12
 Section 내부에 content와 속성을 모두 작성한다. 
 
 
-## List content 
+### List content 
 
-주로 배열을 ForEach 문으로 반복하여 나열할 때 사용된다. 
+주로 배열이 ForEach 문으로 반복하여 사용된다. 
 
 
 ```swift
