@@ -86,7 +86,7 @@ href로 객체의 값도 받을 수 있다.
 <Link
     href={{
         pathname: '/about',
-        query: { name: 'test' }
+        query: { name: 'test' },
     }}> About us </Link>
 ```
 
