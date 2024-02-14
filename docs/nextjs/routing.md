@@ -3,7 +3,6 @@ layout: default
 title: 라우팅 
 parent: Next.js
 nav_order: 2
-has_children: true
 ---
 
 
