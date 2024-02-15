@@ -102,7 +102,7 @@ export default function NotFound() {
 }
 ```
 
-<img src="../../../assets/images/nextjserror.png" alt="error" aria-label="error Image" width="300" height="100">
+<img src="../../../assets/images/nextjserror.png" alt="error" aria-label="error Image" width="400" height="200">
 
 
 {: .note-title }

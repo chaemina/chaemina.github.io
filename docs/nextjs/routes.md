@@ -64,7 +64,7 @@ export default function Page({ params }) {
 page/1, page/abc 등의 경로로 접근 시 해당 url의 파라미터 값에 접근하여 이를 출력 할 수 있다. 
 
 
-### Catch-all 
+## Catch-all 
 
  `[...folderName] -> [...id] or [...slug]`
 
@@ -77,7 +77,7 @@ page
 
 page/1, page/1/1 등의 page의 모든 하위 파라미터에 적용된다. 
 
-### Optional Catch-all 
+## Optional Catch-all 
 
  `[[...folderName]] -> [[...id]] or [[...slug]]`
 
@@ -85,7 +85,7 @@ page/1, page/1/1 등의 page의 모든 하위 파라미터에 적용된다.
 
 
 
-### usePathname
+## usePathname
 
 현재 url path를 문자열로 반환한다. 
 
@@ -102,7 +102,7 @@ export default function Page() {
 <img src="../../../assets/images/usePathname.png" alt="usePathname" aria-label="usePathname Image" width="500" height="300">
 
 
-### useSearchParams
+## useSearchParams
 
 쿼리 스트링 url의 쿼리문 부분을 출력한다. 
 
@@ -118,7 +118,7 @@ export default function Page({params}) {
 <img src="../../../assets/images/useSearchParams.png" alt="useSearchParams" aria-label="useSearchParams Image" width="500" height="300">
 
 
-### useSelectedLayoutsegments
+## useSelectedLayoutsegments
 
 해당 슬롯 내의 활성 경로 세그먼트를 읽을 수 있다. 
 
@@ -166,4 +166,4 @@ export default function ExampleClientComponent() {
 폴더는 url에 영향을 주지 않고, 각 경로에 대해 독립적인 오류 및 로드 상태 정의가 가능하다. 
 
 
-<img src="../../../assets/images/병렬.png" alt="병렬 경로" aria-label="병렬 경로 Image" width="200" height="200">
+<img src="../../../assets/images/병렬.png" alt="병렬 경로" aria-label="병렬 경로 Image" width="400" height="300">
