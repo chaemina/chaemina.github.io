@@ -49,8 +49,7 @@ Next.js에는 Router Cache 라는 메모리 내 클라이언트 측 캐시가 �
 
 변경되는 세그먼트만 리렌더링하고 공유 세그먼트의 상태는 유지한다. 
 
-<img src="../../../assets/images/partrendering.png" alt="부분 렌더링" aria-label="부분 렌더링 Image" width="300" height="100">
-
+<img src="../../../assets/images/partrendering.png" alt="부분 렌더링" aria-label="부분 렌더링 Image" width="400" height="200">
 
 
 ## Link 
