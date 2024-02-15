@@ -83,11 +83,7 @@ href로 객체의 값도 받을 수 있다.
 `/about?name=test`
 
 ```jsx
-<Link
-    href={{
-        pathname: '/about',
-        query: { name: 'test' },
-    }}> About us </Link>
+<Link href={ pathname: '/about', query: { name: 'test' }}> About us </Link>
 ```
 
 
@@ -96,11 +92,7 @@ href로 객체의 값도 받을 수 있다.
 `/blog/my-post`
 
 ```jsx
-<Link
-    href={{
-        pathname: '/blog/[slug]',
-        query: { slug: 'my-post' },
-    }}> Blog Post </Link>
+<Link href={ pathname: '/blog/[slug]',query: { slug: 'my-post' }}> Blog Post </Link>
 ```
 
 물론 객체로 받지 않아도 동적 경로 표현 가능하다. 
