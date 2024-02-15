@@ -64,7 +64,7 @@ export default function Page({ params }) {
 page/1, page/abc 등의 경로로 접근 시 해당 url의 파라미터 값에 접근하여 이를 출력 할 수 있다. 
 
 
-## Catch-all 
+### Catch-all 
 
  `[...folderName] -> [...id] or [...slug]`
 
@@ -77,13 +77,15 @@ page
 
 page/1, page/1/1 등의 page의 모든 하위 파라미터에 적용된다. 
 
-## Optional Catch-all 
+### Optional Catch-all 
 
  `[[...folderName]] -> [[...id]] or [[...slug]]`
 
  대괄호 두번 감싸면 자신 경로까지 출력할 수 있다. 
 
-## usePathname
+
+
+### usePathname
 
 현재 url path를 문자열로 반환한다. 
 
@@ -97,10 +99,10 @@ export default function Page() {
        ... 
 ```
 
-<img src="../../../assets/images/usePathname.png" alt="부분 렌더링" aria-label="부분 렌더링 Image" width="500" height="300">
+<img src="../../../assets/images/usePathname.png" alt="usePathname" aria-label="usePathname Image" width="500" height="300">
 
 
-## useSearchParams
+### useSearchParams
 
 쿼리 스트링 url의 쿼리문 부분을 출력한다. 
 
@@ -113,10 +115,10 @@ export default function Page({params}) {
    const searchTerm = searchParams.get("params");
 ```
 
-<img src="../../../assets/images/useSearchParams.png" alt="부분 렌더링" aria-label="부분 렌더링 Image" width="500" height="300">
+<img src="../../../assets/images/useSearchParams.png" alt="useSearchParams" aria-label="useSearchParams Image" width="500" height="300">
 
 
-## useSelectedLayoutsegments
+### useSelectedLayoutsegments
 
 해당 슬롯 내의 활성 경로 세그먼트를 읽을 수 있다. 
 
@@ -155,3 +157,13 @@ export default function ExampleClientComponent() {
 즉, 방문 한 하위 세그먼트 값을 출력한다. 
 
 
+## 병렬 경로 
+
+병렬 라우팅은 동일한 레이아웃에서 하나 이상의 페이지를 동시에 또는 조건부로 렌더링한다. 
+
+ `@floderName` 
+
+폴더는 url에 영향을 주지 않고, 각 경로에 대해 독립적인 오류 및 로드 상태 정의가 가능하다. 
+
+
+<img src="../../../assets/images/병렬.png" alt="병렬 경로" aria-label="병렬 경로 Image" width="200" height="200">

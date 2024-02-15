@@ -23,7 +23,7 @@ permalink: /
 
  
 
-  1. [Next.js](http://127.0.0.1:4000/docs/nextjs/) 
+  1. [Next.js](https://chaemina.github.io/docs/nextjs) 
   2. [Swift 문법](https://chaemina.github.io/docs/swift)
   3. [Swift UI](https://chaemina.github.io/docs/swiftUI)
 
