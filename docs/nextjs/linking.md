@@ -45,7 +45,7 @@ Next.js에는 Router Cache 라는 메모리 내 클라이언트 측 캐시가 �
 **장점** 서버 탐색 시 서버에 새로운 요청을 하는 대신, 캐시를 최대한 재사용하여 요청 수와 전송 되는 데이터 수를 줄여 성능을 향상 시킨다. 
 
 
-### 부분 헨더링 
+### 부분 렌더링 
 
 변경되는 세그먼트만 리렌더링하고 공유 세그먼트의 상태는 유지한다. 
 
@@ -72,7 +72,7 @@ export default function Page2() {
 }
 ```
 
-### href (팔수)
+### href (필수)
 
 탐색 할 경로 또는 URL 
 
@@ -95,7 +95,7 @@ href로 객체의 값도 받을 수 있다.
 <Link href={ pathname: '/blog/[slug]',query: { slug: 'my-post' }}> Blog Post </Link>
 ```
 
-물론 객체로 받지 않아도 동적 경로 표현 가능하다. 
+물론 객체로 받지 않아도 동적 경로 표현은 가능하다. 
 
 ```jsx
 <Link href={`/blog/${post.slug}`}>{post.title}</Link>

@@ -10,10 +10,6 @@ nav_order: 6
 {: .no_toc }
 
 
-- Link component 
-
-- useRouter Hook 
-
 ## Table of contents
 {: .no_toc .text-delta }
 
@@ -87,7 +83,7 @@ page/1, page/1/1 등의 page의 모든 하위 파라미터에 적용된다.
 
  대괄호 두번 감싸면 자신 경로까지 출력할 수 있다. 
 
- ## usePathname
+## usePathname
 
 현재 url path를 문자열로 반환한다. 
 
