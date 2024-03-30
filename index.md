@@ -55,7 +55,7 @@ npm
 ## **_For connect everyone !_**
 <img src="./assets/images/profile-icon.png" alt="profile Image" aria-label="profile Image" width="200rem" height="200rem">
 {: .d-flex .float-right}
-웹과 앱 프론트앤드를 개발합니다. 기술 블로그에서는 오직 공부 내용만을 정리하고 있습니다. 프로젝트 과정과 트러블 슈팅, 주니어 개발자로서의 이야기는 [여기](https://medium.com/@chaemina8282)에 나와있습니다. 
+웹과 앱 프론트 앤드 개발 공부 기록 블로그입니다.
 {: .highlight}
 
 
