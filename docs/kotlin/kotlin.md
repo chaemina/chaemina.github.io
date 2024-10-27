@@ -31,3 +31,26 @@ Kotlin은 JVM(Java Virtual Machine)에서 실행되므로 기존 Java 코드와 
 ### 확장 가능성
 
 Kotlin은 함수형 프로그래밍 스타일을 지원하며, 확장 함수 등을 통해 유연하고 확장 가능한 코드를 작성할 수 있다.
+
+# Kotlin 파일 구성 
+
+```java
+package com.example.test3 // 패키지 -> 모두 소문자, 밑줄 없이 
+
+import java.util.* // import 
+
+val data = 10, // 변수, 가능한 한 val과 불변 컬렉션 사용 
+
+fun formatData(date : Date) : String { // 함수 및 속성 -> 소문자 카멜표기법 
+    val sdformat = SimpleDateFormat("yyyy-mm-dd") 
+    return sdformat.format(date)
+}
+
+class User { // 클래스 및 객체 -> 대문자 카멜표기법 UserClass 
+    val name = "hello",
+    
+    fun sayHello() {
+        println("name :$name")
+      }
+}
+```
