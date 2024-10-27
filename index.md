@@ -10,7 +10,7 @@ permalink: /
 
 
 {: .fs-6 }
-개발 공부 내용을 기록하는 기술 블로그 
+학습 내용을 기록하는 TIL 블로그 
 
 {: .fs-6 .fw-300 }
 [bio](#minas-bio){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
@@ -32,30 +32,12 @@ permalink: /
 
 > Chonnam National University Software Engineering Front-End Developer
 
-React
-{: .label }
-
-Javascript
-{: .label .label-yellow }
-
-vite
-{: .label .label-purple }
-
-Next.js
-{: .label .label-black }
-
-axios
-{: .label .label-purple }
-
-npm
-{: .label .label-red }
 
 
-
-## **_For connect everyone !_**
+## **_목적지를 정하면, 도착할 수 없게 된다_**
 <img src="./assets/images/profile-icon.png" alt="profile Image" aria-label="profile Image" width="200rem" height="200rem">
 {: .d-flex .float-right}
-웹과 앱 프론트 앤드 개발 공부 기록 블로그입니다.
+목표에 얽매이기보다는 성장하는 과정의 즐거움을 추구합니다. 프론트엔드 개발자로서의 길을 걸으며 빠르게 변화하는 기술을 유연하게 익히고, 시행착오를 경험하며 나만의 방향을 찾아갑니다. 목표에 도달하는 것보다 그 과정에서 배우고, 적응하고, 발전해가는 여정을 함께 나누고자 합니다.
 {: .highlight}
 
 
