@@ -26,6 +26,7 @@ permalink: /
   1. [Next.js](https://chaemina.github.io/docs/nextjs) 
   2. [Swift 문법](https://chaemina.github.io/docs/swift)
   3. [Swift UI](https://chaemina.github.io/docs/swiftUI)
+  4. [Kotlin](https://chaemina.github.io/docs/kotlin)
 
 
 ## Mina's bio
