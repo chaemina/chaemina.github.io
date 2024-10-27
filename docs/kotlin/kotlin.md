@@ -9,6 +9,8 @@ permalink: docs/kotlin
 # Kotlin
 {: .no_toc }
 
+Kotlin에 대한 학습 내용은 **모바일 응용 소프트웨어** 과목을 수강하며 정리하였다.
+
 Kotlin이란?
 {: .fs-6 .fw-300 }
 Kotlin은 JetBrains에서 개발하고 Google이 공식 지원하는 오픈 소스 프로그래밍 언어로, 주로 Android 애플리케이션과 서버 개발에 사용된다.

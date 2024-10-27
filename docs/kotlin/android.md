@@ -27,7 +27,7 @@ Android는 **리눅스 기반의 운영체제**로, 모든 응용 프로그램�
 - **자바 API 프레임워크** : 앱 개발 시 활용되는 자바 기반 API.
 - **DEX 파일** : 자바 클래스를 바로 실행하지 않고 DEX 파일로 컴파일해 최적화된 상태로 실행.
   
-  <img src="./assets/images/android.png" alt="Android Image" aria-label="Android Image" width="200px" height="200px">
+  <img src="../../assets//images/android.png" alt="Android Image" aria-label="Android Image" width="200px" height="200px">
 
 
 
